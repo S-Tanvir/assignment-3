@@ -7,6 +7,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment 3</title>
+
+                                 <!-- ADLaM Display font --> 
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap" rel="stylesheet">
+
+
+                               <!-- sora font -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+
+
+
+                        <!-- daisyUI CDN -->
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+
+                          <!-- style section -->
+
+<style>
+
+.adlam-display-font {
+  font-family: "ADLaM Display", serif;
+}
+
+
+
+.sora-font{
+  font-family: "Sora", serif;
+}
+
+.width{
+    max-width: 1900px;
+    margin: 0 auto;
+}
+
+.height{
+    height: 1.25px;
+}
+
+
+
+
+
+</style>
 </head>
 
 
@@ -17,7 +66,41 @@
 
                        <!-- header section -->
     <header>
+                                 <!-- navbar start -->
 
+   <nav class="bg-[#FFF9F4] py-4 lg:py-6 width">
+
+  <div class="nav-section max-w-7xl mx-auto flex items-center justify-between">
+                 <!-- nav left -->
+    <div class="nav-left flex items-center gap-2">
+        <img class="px-4" src="c1-assets/logo-header.png" alt="">
+        <h3 class="hidden lg:block sora-font text-2xl text-[#111111] ">Browse<span class="text-[#FFDC26]">4</span>Pets</h3>
+     </div>
+                        <!-- nav middle -->
+     <div class="nav-middle hidden sora-font text-xl lg:flex gap-8 text-[#111111]">
+        <a href="" class="nav-links ">Find a pet</a>
+        <a href="" class="nav-links">Breeds</a>
+        <a href="" class="nav-links">Contact us</a>
+    </div>
+
+                       <!-- nav right -->
+
+    <div class="nav-right hidden lg:flex gap-3 sora-font items-center">
+        <img class="w-7 h-7" src="c1-assets/notification.png" alt="">
+        <img class="w-7 h-7" src="c1-assets/search.png" alt="">
+        <button class=" text-[#111111] text-xl border border-solid border-[#FFDC26] bg-white px-8 py-2 rounded-lg">Login</button>
+        <button class="m-btn  bg-[#FFDC26] text-[#111111] text-xl  px-7 py-2 rounded-lg">Register</button>
+
+       
+    </div>
+
+    <img class="lg:hidden px-4" src="c1-assets/hamburger.png" alt="">
+
+  </div>
+      
+   </nav>
+
+   <hr class="lg:hidden bg-[#111111] height">
     </header>
                        <!-- main section -->
     <main>
